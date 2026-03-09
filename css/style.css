@@ -12042,6 +12042,18 @@ h5,
   -webkit-text-stroke-color: #fff;
 }
 
+.vertical-text {
+  writing-mode: vertical-rl; /* vertical right-to-left */
+  text-orientation: upright; /* make letters upright, not rotated */
+  font-size: 6rem; /* adjust size as needed */
+  font-weight:lighter;
+  color: #fff; /* or whatever color fits your design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 .home-wrap .half {
   width: 50%;
   background: #000000;
